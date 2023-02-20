@@ -1,3 +1,5 @@
+import Header from '@/components/header'
+import Providers from '@/components/Providers'
 import './globals.css'
 
 export default function RootLayout({
@@ -12,7 +14,14 @@ export default function RootLayout({
         head.tsx. Find out more at https://beta.nextjs.org/docs/api-reference/file-conventions/head
       */}
       <head />
-      <body>{children}</body>
+      <body>
+        <Providers>
+          <main className="mx-10 mt-2 mb-8">
+            <Header />
+            {children}
+          </main>
+        </Providers>
+      </body>
     </html>
   )
 }
