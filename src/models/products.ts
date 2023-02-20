@@ -1,4 +1,5 @@
-import { client, GET_PRODUCTS } from '../libraries/graphql'
+import { gql } from '@apollo/client'
+import { client } from '../services/graphql'
 
 interface Image {
   id: number
@@ -16,7 +17,21 @@ export interface Product {
 
 export const getProducts = async () => {
   const { data } = await client.query({
-    query: GET_PRODUCTS
+    query: gql`
+      query products {
+        products {
+          id
+          images {
+            id
+            height
+            url(transformation: {})
+            width
+          }
+          name
+          price
+        }
+      }
+    `
   })
 
   return data.products
