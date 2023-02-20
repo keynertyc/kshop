@@ -31,9 +31,9 @@ This is a sample Shopping Cart app built using Next.js 13, Tailwind, Redux Toolk
 
 ## Screenshots
 
-![Image1](https://pasteboard.co/TcyyTc3aQzKH.png "Image1")
+![Image1](https://i.imgur.com/23089eX.png "Image1")
 
-![Image2](https://pasteboard.co/y0TV5C61PS8E.png "Image2")
+![Image2](https://i.imgur.com/SsGGQ57.png "Image2")
 
 ## Deploy on Vercel
 
