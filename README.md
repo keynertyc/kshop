@@ -29,6 +29,8 @@ This is a sample Shopping Cart app built using Next.js 13, Tailwind, Redux Toolk
 - [Hygraph](https://hygraph.io/)
 - [Apollo Client](https://www.apollographql.com/docs/react/)
 
+## Live Demo [here](https://kshop-liart.vercel.app)
+
 ## Screenshots
 
 ![Image1](https://i.imgur.com/23089eX.png "Image1")
