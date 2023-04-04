@@ -1,6 +1,5 @@
 import cartSlice, { CartState } from './features/cartSlice'
 import { configureStore, combineReducers, Reducer, AnyAction } from '@reduxjs/toolkit';
-import { PersistPartial } from 'redux-persist/es/persistReducer'
 import { persistReducer, persistStore, FLUSH, REHYDRATE, PAUSE, PERSIST, PURGE, REGISTER } from 'redux-persist'
 import { TypedUseSelectorHook, useDispatch, useSelector } from 'react-redux'
 import autoMergeLevel2 from 'redux-persist/lib/stateReconciler/autoMergeLevel2'
